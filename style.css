@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#e9e9e9;
+
+    /* CENTRAR */
+    display:flex;
+    justify-content:center;
+
+    min-height:100vh;
+
+    padding:30px;
+}
+
+.contenedor{
+    width:100%;
+    max-width:900px;
+}
+
+.titulo{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.titulo h1{
+    font-size:60px;
+}
+
+.titulo h3{
+    margin-top:10px;
+}
+
+.caja{
+    display:flex;
+    justify-content:center; /* CENTRA LA TARJETA */
+
+}
+
+.tarjeta{
+
+    width:420px;
+
+    background:#f3f3f3;
+
+    border:3px solid black;
+
+    border-radius:30px;
+
+    padding:20px;
+
+}
+
+.tarjeta h2{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+    font-size:26px;
+
+}
+
+.imagenes{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:15px;
+
+}
+
+.imagenes img{
+
+    width:160px;
+
+    height:160px;
+
+    object-fit:cover;
+
+}
+
+.texto{
+
+    margin-top:20px;
+
+    text-align:center;
+
+    line-height:1.7;
+
+    font-size:18px;
+
+}
+
+.texto a{
+
+    display:block;
+
+    margin-top:20px;
+
+    text-decoration:none;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+}
