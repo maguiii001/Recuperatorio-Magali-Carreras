@@ -21,7 +21,7 @@ h1{
     font-size: 32px;
 }
 
-/* GALERÍA */
+
 .galeria{
     display: grid;
 
@@ -33,7 +33,7 @@ h1{
     gap: 20px;
 }
 
-/* IMÁGENES */
+
 .galeria img{
     width: 320px;
     height: 250px;
@@ -50,7 +50,7 @@ h1{
     transform: scale(1.03);
 }
 
-/* BOTÓN */
+
 .volver{
     display: inline-block;
 

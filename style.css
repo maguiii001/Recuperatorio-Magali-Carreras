@@ -37,7 +37,7 @@ body{
 
 .caja{
     display:flex;
-    justify-content:center; /* CENTRA LA TARJETA */
+    justify-content:center; 
 
 }
 
